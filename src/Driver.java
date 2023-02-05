@@ -1,15 +1,23 @@
+/* ============================================
+ *  Author: Joshuah Collins
+ *  File: Driver.java
+ *  Project: Java Messaging Program
+ * ============================================
+ */
 import java.util.Scanner;
 import java.util.ArrayList;
 
 
 public class Driver {
-	private static Database db = new Database("../database/messageDatabase.db");
+	// -- CLASS VARIABLES -- 
+	private static MessageDatabase db = new MessageDatabase("../database/messageDatabase.db");
 	private static boolean loggedIn = false;
 	private static int SENTINEL = 0;
 	
 	private static Scanner input = new Scanner(System.in);
 	private static String userName;
 
+	// -- PROGRAM START LOOP --
 	public static void main(String[] args) {
 		while(SENTINEL == 0) {
 			printMenu();
@@ -82,6 +90,7 @@ public class Driver {
 		System.out.println();
 	}
 	
+	// -- SELECTION HANDLER METHODS --
 	public static void login() {
 		System.out.println("Enter username: ");
 		userName = input.nextLine();
