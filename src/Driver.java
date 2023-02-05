@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import java.util.ArrayList;
 
+
 public class Driver {
     private static Database db = new Database("../database/messageDatabase.db");
 	private static boolean loggedIn = false;
@@ -10,6 +11,5 @@ public class Driver {
 	private static String userName;
 
     public static void main(String[] args) {
-        
     }
 }
