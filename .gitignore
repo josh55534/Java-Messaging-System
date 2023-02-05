@@ -24,3 +24,6 @@ hs_err_pid*
 
 # ignore virtual studio code launch settings
 .vscode
+
+# batch files
+*.bat
