@@ -10,5 +10,5 @@ Users can also read messages they have received and messages they have
 sent to other users.
 
 ## Dependencies
-I used a java library that allows Java's JDBC to work with SQLite databases.
+I used a Java library that allows Java's JDBC to work with SQLite databases.
 A link to the github page can be found [here](https://github.com/xerial/sqlite-jdbc).
