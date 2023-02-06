@@ -1,6 +1,6 @@
 /* ============================================
  *  Author: Joshuah Collins
- *  File: Database.java
+ *  File: MessageDatabase.java
  *  Project: Java Messaging Program
  * ============================================
  */
